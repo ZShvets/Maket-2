@@ -7,6 +7,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 .nav{
+    margin-top: 2vh;
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -23,9 +24,10 @@
 }
 .nav-list-link{
     color: white;
+    font-size: 1.2rem;
 }
 .nav-list-link:hover{
-    border-bottom: 2px solid yellow;
+    border-bottom: 0.3vh solid yellow;
     color: yellow;
 }
 .header{
@@ -34,7 +36,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    background-image: linear-gradient(180deg, rgba(255, 92, 71, 0.986) 0%, rgba(251, 255, 28, 0.815) 100%), url(/bird.png);
+    background-image: linear-gradient(180deg, rgba(255, 93, 71, 0.89) 0%, rgba(235, 214, 26, 0.815) 100%), url(/bird.png);
     background-position: top;
     background-repeat: no-repeat;
 }
@@ -49,7 +51,62 @@
 .Template{
     font-family: 'Kaushan Script', cursive;
     color: white;
+    font-size: 3rem;
 }
 h1{
+    font-size: 6rem;
     color: white;
+    display: flex;
+    text-align: center;
+}
+.Main-logo{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.links-to-other-stuff{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+.link-to-other-stuff{
+    margin: 1vw;
+    color: white;
+    text-decoration: none;
+    border-top: 2px solid white;
+    padding: 2vh 2vh 2vh 0;
+    width: 11vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.Learn-more-link{
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    padding: 1vh;
+    font-weight: 700;
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.number{
+    margin-right: 0.3vw;
+    font-weight: 700;
+}
+.link-to-other-stuff:hover{
+    transition-property: border, color;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    border-top: 2px solid rgb(255, 93, 71);
+    color: rgb(255, 93, 71);
+}
+.Main-logo-line{
+    margin: 4vh;
+    width: 13%;
+    border: 1px solid white;
 }
