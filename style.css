@@ -36,7 +36,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    background-image: linear-gradient(180deg, rgba(255, 93, 71, 0.89) 0%, rgba(235, 214, 26, 0.815) 100%), url(/bird.png);
+    background-image: linear-gradient(180deg, rgba(255, 93, 71, 0.89) 0%, rgba(235, 214, 26, 0.815) 100%), url(bird.png);
     background-position: top;
     background-repeat: no-repeat;
 }
