@@ -6,6 +6,12 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
+.About-us, .facts, .Service, .Feauture, .Service2, .Quote, .Our-team, .Logos, .Work, .testimonial, .what-people-say, .blog, .map{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 .nav{
     margin-top: 2vh;
     display: flex;
@@ -49,9 +55,11 @@
     color: white;
 }
 .Template{
-    font-family: 'Kaushan Script', cursive;
     color: white;
     font-size: 3rem;
+}
+.cursive-headlines{
+    font-family: 'Kaushan Script', cursive;
 }
 h1{
     font-size: 6rem;
@@ -59,7 +67,7 @@ h1{
     display: flex;
     text-align: center;
 }
-.Main-logo{
+.Header-logo{
     height: 50vh;
     display: flex;
     flex-direction: column;
@@ -110,3 +118,117 @@ h1{
     width: 13%;
     border: 1px solid white;
 }
+.logo-line{
+    margin: 4vh;
+    width: 40%;
+    border: 1px solid rgb(255, 92, 71);
+}
+.map{
+    width: 100%;
+    height: 15vh;
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.5) 100%), url(map.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.Open-map{
+    text-decoration: none;
+    font-weight: 700;
+    color: rgb(255, 92, 71);
+    font-size: 1.6rem;
+}
+.facts{
+    background-color: rgba(149, 225, 211, 1);
+    width: 100%;
+    height: 25vh;
+}
+.About-us{
+    height:80vh;
+    justify-content: space-around;
+}
+.facts-list{
+    height: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.facts-list-element{
+    height: 100%;
+    width: 10.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1vh;
+    border-right: 0.5px solid white;
+}
+.main-p{
+    width: 60%;
+    text-align: center;
+}
+.About-us-pictures{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+}
+.About-us-picture{
+    height: 26vh;
+    width: 22vw;
+}
+.About-us-picture-div{
+    background-color: rgb(149, 225, 211);
+}
+.About-us-picture-div2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    top: -27vh;
+    right: 1vh;
+    background-image: linear-gradient(180deg, rgba(255, 93, 71, 0.89) 0%, rgba(235, 179, 26, 0.815) 100%), url(stol1.jpg);
+}
+.About-us-picture-div2-p{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.About-us-picture-divs{
+    height: 24vh;
+}
+.main-logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.facts-list-element-number, .facts-list-element-p{
+    color: white;
+}
+.facts-list-element-p{
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+.facts-list-element-number{
+    font-size: 3.5rem;
+    font-weight: 900;
+}
+.Web-Design-Projects{
+    border-left: 1px solid rgb(255, 255, 255);
+}
+/*.Web-Design-Projects{
+    border-right: 1px solid rgba(255, 255, 255, 0.247);
+}
+.happy-client{
+    border-right: 1px solid rgba(255, 255, 255, 0.247);
+}
+.award-winner{
+    border-right: 1px solid rgba(255, 255, 255, 0.247);
+}
+.cup-of-coffee{
+    border-right: 1px solid rgba(255, 255, 255, 0.247);
+}
+.members{
+    border-right: 1px solid rgba(255, 255, 255, 0.247);
+}*/
