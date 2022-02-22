@@ -117,11 +117,13 @@ h1{
     margin: 4vh;
     width: 13%;
     border: 1px solid white;
+    background-color: white;
 }
 .logo-line{
     margin: 4vh;
-    width: 40%;
+    width: 4%;
     border: 1px solid rgb(255, 92, 71);
+    background-color: rgb(255, 92, 71);
 }
 .map{
     width: 100%;
@@ -186,8 +188,10 @@ h1{
     align-items: center;
     color: white;
     position: relative;
+    background-size: 100%;
     top: -27vh;
     right: 1vh;
+    background-repeat: no-repeat;
     background-image: linear-gradient(180deg, rgba(255, 93, 71, 0.89) 0%, rgba(235, 179, 26, 0.815) 100%), url(stol1.jpg);
 }
 .About-us-picture-div2-p{
@@ -202,6 +206,8 @@ h1{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    font-size: 1.3rem;
+    width: 100%;
 }
 .facts-list-element-number, .facts-list-element-p{
     color: white;
@@ -216,6 +222,67 @@ h1{
 }
 .Web-Design-Projects{
     border-left: 1px solid rgb(255, 255, 255);
+}
+.Service{
+    height: 70vh;
+}
+.Service-grid{
+    width: 75%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+        "A B C"
+        "D E F"
+    ;
+}
+.Service-grid-A{
+    grid-area: A;
+}
+.Service-grid-B{
+    grid-area: B;
+}
+.Service-grid-C{
+    grid-area: C;
+}
+.Service-grid-D{
+    grid-area: D;
+}
+.Service-grid-E{
+    grid-area: E;
+}
+.Service-grid-F{
+    grid-area: F;
+}
+.Service-grid-element{
+    margin: 1vh;
+    width: 20vw;
+}
+.Service-grid-p{
+    margin-top: 1vh;
+}
+.Feauture{
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.6) 100%), url(Unique-design-background.jpg);
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: end;
+}
+.Feauture-pictures-block{
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Feauture-picture-ipad{
+    height: 100%;
+    position: relative;
+    right: -14vh;
+}
+.Feauture-picture-phone{
+    position: relative;
+    top: 10vh;
+    right: -3vh;
 }
 /*.Web-Design-Projects{
     border-right: 1px solid rgba(255, 255, 255, 0.247);
