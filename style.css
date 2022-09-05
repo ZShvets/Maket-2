@@ -12,7 +12,7 @@
     justify-content: center;
     flex-direction: column;
     width: 100%;
-}
+} 
 .nav{
     margin-top: 2vh;
     display: flex;
@@ -27,15 +27,16 @@
     list-style: none;
 }
 .nav-list-element{
-    margin-right: 1vw;
+    margin-right: 1.5vw;
 }
 .nav-list-link{
     color: white;
     font-size: 1.2rem;
+    padding-bottom: 0.5vh;
 }
 .nav-list-link:hover{
-    border-bottom: 0.3vh solid yellow;
-    color: yellow;
+    border-bottom: 0.3vh solid rgba(252, 227, 138, 1);
+    color: rgba(252, 227, 138, 1);
 }
 .header{
     height: 100vh;
@@ -43,7 +44,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    background-image: linear-gradient(180deg, rgba(255, 93, 71, 0.89) 0%, rgba(235, 214, 26, 0.815) 100%), url(bird.png);
+    background-image: linear-gradient(180deg, rgba(231, 129, 130, 0.9) 0%, rgba(239, 217, 138, 0.9) 100%), url(bird.png);
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -61,6 +62,7 @@
 }
 .cursive-headlines{
     font-family: 'Kaushan Script', cursive;
+    font-weight: 500;
 }
 h1{
     font-size: 6rem;
@@ -80,22 +82,24 @@ h1{
     flex-direction: row;
     justify-content: center;
     width: 100%;
+    font-size: 11pt;
 }
 .link-to-other-stuff{
     margin: 1vw;
-    color: white;
+    color: rgba(255, 255, 255, 0.65);
     text-decoration: none;
-    border-top: 2px solid white;
+    border-top: 2px solid rgba(255, 255, 255, 0.75);
     padding: 2vh 2vh 2vh 0;
     width: 11vw;
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    font-weight: 500;
 }
 .Learn-more-link{
     text-decoration: none;
     color: white;
-    border: 2px solid white;
+    border: 0.2rem solid white;
     padding: 1vh;
     font-weight: 700;
     width: 35%;
@@ -106,17 +110,19 @@ h1{
 .number{
     margin-right: 0.3vw;
     font-weight: 700;
+    font-size: 14pt;
+
 }
 .link-to-other-stuff:hover{
     transition-property: border, color;
     transition-duration: 1s;
     transition-timing-function: ease;
-    border-top: 2px solid rgb(255, 93, 71);
-    color: rgb(255, 93, 71);
+    border-top: 2px solid #F38181;
+    color: white;
 }
 .Main-logo-line{
     margin: 4vh;
-    width: 13%;
+    width: 10%;
     border: 1px solid white;
     background-color: white;
 }
@@ -146,7 +152,7 @@ h1{
 }
 .About-us{
     height: 75vh;
-    justify-content: space-around;
+    justify-content: center;
 }
 .facts-list{
     height: 100%;
@@ -164,24 +170,29 @@ h1{
     justify-content: center;
     flex-direction: column;
     padding: 1vh;
-    border-right: 0.5px solid white;
+    border-right: 0.5px solid rgba(255, 255, 255, 0.4);
 }
 .main-p{
     width: 60%;
     text-align: center;
+    font-size: 11pt;
+    color: #999999;
 }
 .About-us-pictures{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     width: 70%;
+    height: 40vh;
 }
 .About-us-picture{
     height: 26vh;
-    width: 22vw;
+    width: 30%;
 }
 .About-us-picture-div{
     background-color: rgb(149, 225, 211);
+    width: 100%;
 }
 .About-us-picture-div2{
     display: flex;
@@ -193,14 +204,16 @@ h1{
     top: -27vh;
     right: 1vh;
     background-repeat: no-repeat;
-    background-image: linear-gradient(180deg, rgba(255, 93, 71, 0.89) 0%, rgba(235, 179, 26, 0.815) 100%), url(stol1.jpg);
+    background-image: linear-gradient(180deg, rgba(231, 129, 130, 0.9) 0%, rgba(239, 217, 138, 0.9) 100%), url(stol1.jpg);
+    width: 100%;
 }
 .About-us-picture-div2-p{
     font-size: 1.2rem;
     font-weight: 700;
 }
 .About-us-picture-divs{
-    height: 24vh;
+    height: 26vh;
+    width: 30%;
 }
 .main-logo{
     display: flex;
@@ -222,7 +235,7 @@ h1{
     font-weight: 900;
 }
 .Web-Design-Projects{
-    border-left: 1px solid rgb(255, 255, 255);
+    border-left: 1px solid rgba(255, 255, 255, 0.4);
 }
 .Service{
     height: 65vh;
